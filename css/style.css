@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 390px;
+}
+
+li {
+  display: flex;
+  flex-basis: calc(100% / 3 - 30px);
+}
